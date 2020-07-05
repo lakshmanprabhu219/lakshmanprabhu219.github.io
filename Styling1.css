@@ -1,0 +1,244 @@
+body{
+	width:100vw;
+	min-height:100vh;
+}
+.Homebody{
+	background-color:#FFFFFF;
+	background-image:url("Images/Laptop Background 2.png");
+	background-size:102% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.RestBody{
+	background-image:-moz-linear-gradient(to bottom,#f5e898,#98f5ef);
+	background-image:-webkit-linear-gradient(to bottom,#f5e898,#98f5ef);
+	background-image:-o-linear-gradient(to bottom,#f5e898,#98f5ef);
+	background-image:linear-gradient(to bottom,#f5e898,#98f5ef);
+	background-size:100vw 100vh;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	border-style:solid;
+	border-width:2px;
+}
+.RestHeader{
+	
+}
+.RestNav{
+	
+}
+nav>a{
+	display:inline-block;
+	text-align:center;
+	height:5vh;
+	width:23vw;
+	min-height:50px;
+	font-size:4vh;
+	font-family:serif;
+	border-radius:10px;
+	text-align:center;
+	color:#FFFFFF;
+	padding-bottom:1vh;
+	font-weight:bold;
+	text-decoration:none;
+	background-image:-moz-linear-gradient(to bottom,#0B58AF,#0FBEAE);
+	background-image:-webkit-linear-gradient(to bottom,#0B58AF,#0FBEAE);
+	background-image:-o-linear-gradient(to bottom,#0B58AF,#0FBEAE);
+	background-image:linear-gradient(to bottom,#0B58AF,#0FBEAE);
+}
+ul{
+	list-style-type:none;
+	margin-left:25vw;
+}
+@media all and (min-width:200px)
+{
+	nav>a{
+		margin:2vh 4vw;
+		font-size:3vh;
+	}
+	nav:nth-child(4){
+		margin:2% 2% 2% 8%;
+	}
+	#MyImage1{
+		display:block;
+		width:50vw;
+		margin:5vh 25vw 10vh;
+		clear:left;
+	}
+	#MyImage2{
+		display:block;
+		width:50vw;
+		height:50vw;
+		clear:left;
+		margin:5vh 25vw;
+	}
+	#Brief{
+		display:block;
+		padding:4vh 5vw;
+		margin:5vw;
+		font-size:3vh;
+		margin-right:5vw;
+		background-color:#A9ACF2;
+		opacity:0.8;
+		border-radius:5vh;
+		text-align:center;
+		
+	}
+	#WelcomeMessage{
+		display:block;
+		font-family:"Avanta Garde";
+		font-size:5vh;
+		text-align:center;
+		color:#FFFFFF;
+		padding:1vh 2vw;
+		background-color:#584EB8;
+		opacity:0.75;
+		border-radius:5vh;
+	}
+	#Quote{
+	font-size:15vw;
+	color:#393F3D;
+	text-align:center;
+	margin-top:10vh;
+	margin-bottom:5vh;
+	}
+	.centerHeading{
+		display:block;
+		text-align:center;
+		font-size:15vw;
+		padding-top:2vh;
+		font-family:serif;
+		font-weight:bold;
+		color:#000000;
+	}
+	.aboutDiv{
+		opacity:0.8;
+		background-color:#eb8da1;
+		margin:10vh 2.5vw;
+		width:95vw;
+		border-radius:5vw;
+	}
+	.aboutPara{
+		padding:2vh 2vw;
+		text-align:center;
+		font-size:4vh;
+		font-family:Palatino;
+		color:#FFFFFF;
+	}
+	ul{
+		margin:10vh 40vw;
+	}
+	li{
+		display:block;
+		width:10vw;
+		height:10vw;
+		margin:5vh 0vw;
+		background-color:#FFFFFF;
+		border-radius:10vw;
+	}
+	li:hover{
+		background-color:#333333;
+	}
+}
+@media all and (min-width:1000px)
+{
+	nav>a{
+		margin:2vh 3vw;
+		width:15vw;
+	}
+	nav:first-child{
+		margin:2% 1% 2% 5vw;
+	}
+	#MyImage1{
+		margin:5vh 2vw 1vh 5vw;
+		display:inline-block;
+		width:25%;
+		float:left;
+	}
+	#MyImage2{
+		display:inline-block;
+		width:20vw;
+		height:20vw;
+		float:left;
+		margin-left:10vw;
+		margin-right:2vw;
+	}
+	#WelcomeMessage{
+		display:inline-block;
+		width:65%;
+		padding:5vh 2vw;
+		margin:5vh 1vw;
+		font-family:"Avanta Garde";
+		font-size:5vh;
+		color:#FFFFFF;
+		background-color:#584EB8;
+		opacity:0.75;
+		border-radius:5vh;
+	}
+	#Brief{
+		display:inline-block;
+		width:55vw;
+		padding:2vh 2vw;
+		font-size:4vh;
+		background-color:#A9ACF2;
+		opacity:0.8;
+		border-radius:5vh;
+	}
+	#Quote{
+	font-size:10vw;
+	color:#393F3D;
+	text-align:center;
+	}
+	.centerHeading{
+		display:block;
+		text-align:center;
+		font-size:7.5vw;
+		padding-top:2vh;
+		font-family:serif;
+		font-weight:bold;
+		color:#000000;
+	}
+	.aboutDiv{
+		opacity:0.8;
+		background-color:#eb8da1;
+		margin:15vh 2.5vw;
+		width:95vw;
+		border-radius:5vw;
+	}
+	.aboutPara{
+		padding:2vh 2vw;
+		text-align:center;
+		font-family:Palatino;
+		font-size:4vh;
+		color:#FFFFFF;
+	}
+	ul{
+		margin:20vh 15vw;
+	}
+	li{
+		display:inline-block;
+		width:10vw;
+		height:10vw;
+		margin:0vh 5vw;
+		background-color:#FFFFFF;
+		border-radius:10vw;
+	}
+}
+
+.navdiv{
+	display:block;
+	height:10vh;
+}
+nav>a:hover{
+	opacity:1;
+	text-decoration:none;
+}
+.active{
+	opacity:0.8;
+	background-image:-moz-linear-gradient(to bottom,#470BF1,#EC0D93);
+	background-image:-webkit-linear-gradient(to bottom,#470BF1,#EC0D93);
+	background-image:-o-linear-gradient(to bottom,#470BF1,#EC0D93);
+	background-image:linear-gradient(to bottom,#470BF1,#EC0D93);
+}
+.inactive{
+	opacity:0.6;
+}
